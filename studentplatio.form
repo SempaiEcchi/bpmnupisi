@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Da",
+          "value": "true"
+        },
+        {
+          "label": "Ne",
+          "value": "false"
+        }
+      ],
+      "label": "Student platio",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1u2qm0s",
+        "columns": null
+      },
+      "id": "Field_0bx5qoa",
+      "key": "studentplatio",
+      "defaultValue": "true"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19to3k3",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.25.0"
+  },
+  "schemaVersion": 16
+}
