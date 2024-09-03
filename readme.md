@@ -1,5 +1,28 @@
 BPMN Model za upis studenata na fakultet
 ![img.png](img.png)
+## Opis procesa
+
+
+Ovaj dijagram prikazuje proces upisa studenta na fakultet kroz nekoliko koraka.Proces započinje tako da naš sustav zaprimi event
+od "postani student" sa podacima o studentu (ime, prezime, email, željeni fakultet, itd.).
+Student koji je ostvario prava za upis pristupa sustavu dobije svoj email i password te
+se prijavljuje. 
+
+Nakon prijave, sustav šalje podatke o studentu kako bi se zabilježili u
+bazi podataka, a student zatim bira izborne predmete. Sustav automatski dohvaća
+dostupne izborne predmete iz baze podataka i prikazuje ih studentu na izbor. 
+
+Nakon
+odabira predmeta, sustav sprema odabrane predmete i generira uplatnicu koju šalje
+studentu. Ako student nije izvršio uplatu, proces se zaustavlja dok se uplata ne
+potvrdi. Kada je uplata potvrđena, podaci se šalju u ISVU, a student dobiva obavijest o uspješnom upisu. Proces završava kada je student
+uspješno upisan, što je označeno završnim stanjem na dijagramu.
+
+
+
+
+
+
 
 
 ## Tehnologije
